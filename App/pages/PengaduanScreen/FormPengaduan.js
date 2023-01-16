@@ -40,7 +40,6 @@ export default FormPengaduan =({navigation})=> {
   const user = useSelector(state => state.user)
   const pengaduanForm = useSelector(state => state.pengaduan.form)
   const personalData = [
-    {label:"NIK", value: user.nik},
     {label:"Pelapor", value: user.fullName},
 ]
 
