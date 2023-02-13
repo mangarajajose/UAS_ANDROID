@@ -9,6 +9,9 @@ import KotaTujuanScreen from './EhcScreen/KotaTujuanScreen'
 import TransportasiScreen  from './EhcScreen/TransportasiScreen'
 import PengaduanScreen from './PengaduanScreen'
 import FormPengaduan from './PengaduanScreen/FormPengaduan'
+import AccoUnt from './AccoUnt'
+import NotifiCation from './NotifiCation'
+
 
 export{
     SplashScreen,
@@ -21,5 +24,8 @@ export{
     KotaTujuanScreen,
     TransportasiScreen,
     PengaduanScreen,
-    FormPengaduan
+    FormPengaduan,
+    AccoUnt,
+    NotifiCation
+
 }

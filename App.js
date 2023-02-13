@@ -11,7 +11,9 @@ import {
   EhcFormScreen,
   EhcListScreen,
   PengaduanScreen,
-  FormPengaduan
+  FormPengaduan,
+  AccoUnt,
+  NotifiCation
 } from './App/pages'
 
 const Stack = createNativeStackNavigator();
@@ -32,6 +34,8 @@ const  App = ()=> {
           <Stack.Screen name="TransportasiScreen" component={TransportasiScreen} options={{title:'Transportations'}}/>
           <Stack.Screen name="PengaduanScreen" component={PengaduanScreen} options={{headerShown: false}}/>
         <Stack.Screen name="FormPengaduan" component={FormPengaduan} options={{title:'input pengaduan'}}/>
+        <Stack.Screen name="AccoUnt" component={AccoUnt} options={{headerShown: false}}/>
+        <Stack.Screen name="NotifiCation" component={NotifiCation} options={{headerShown: false}}/>
       </Stack.Navigator>
     </NavigationContainer>
     </Provider>
